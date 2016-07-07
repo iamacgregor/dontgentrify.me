@@ -1,0 +1,133 @@
+html, body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #E9F8FF;
+  background-image: linear-gradient(#FFFFFF 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.7) 1px, transparent 1px);
+  background-position: center;
+  background-size: 25px 25px, 25px 25px;
+
+  font-size: 100%;
+  font-family: Helvetica, sans-serif;
+}
+
+#page {
+  width: 75%;
+  height: 75%;
+  max-width: 550px;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  font-size: 100%;
+  
+  background-color: white;
+  /*box-shadow: 10px 10px 0px #8897AB;*/
+}
+
+#maintext {
+  position: absolute;
+  font-size: 4.9em;
+  padding: 20px;
+  top: 0%;
+  height: 40%;
+  margin: auto;
+}
+
+#choose {
+  position: absolute;
+  width: 100%;
+  height: 1.3em;
+  top: 44%;
+  text-align: center;
+  font-size: 2em;
+  background-color: #FFFF65;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#cities {
+  position: absolute;
+  min-height: 200px;
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+  max-height: 40%;
+  top: 55%;
+  font-size: 100%;
+  overflow-y: hidden;
+}
+
+#berkeley {
+  background-color: #E9F8FF;
+  float: left; 
+  width:80%;
+  margin: 5%;
+  padding: 3%;
+  text-align: center;
+  font-size: 2.6em;
+}
+
+#oakland {
+  background-color: #E9F8FF;
+  overflow: hidden;
+  width:80%;
+  margin: 5%;
+  padding: 3%;
+  text-align: center;
+  font-size: 2.6em;
+}
+
+@media screen and (max-width: 600px) {
+  #page {
+    width: 80%;
+    left: 0%;
+  }
+}
+
+
+@media screen and (max-width: 730px) {
+  #maintext {
+    font-size: 4.3em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #maintext {
+    font-size: 3.7em;
+  }
+  #cities {
+  top: 58%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #maintext {
+    font-size: 3em;
+  }
+  #page {
+    width: 100%;
+    left: 0%;
+    height: 100%;
+    top: 50%;
+    overflow: hidden;
+  }
+  #cities {
+    top: 55%;
+  }
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}

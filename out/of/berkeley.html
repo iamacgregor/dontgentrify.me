@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"> 
+<title>Don't Gentrify Me out of Berkeley</title>
+<link rel="icon" href="/icon.png">
+<style> 
+html, body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #E9F8FF;
+  background-image: linear-gradient(#FFFFFF 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.7) 1px, transparent 1px);
+  background-position: center;
+  background-size: 25px 25px, 25px 25px;
+
+  font-size: 100%;
+  font-family: Helvetica, sans-serif;
+}
+
+#page {
+  width: 75%;
+  height: 75%;
+  max-width: 750px;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  font-size: 100%;
+  
+  background-color: white;
+  /*box-shadow: 10px 10px 0px #8897AB;*/
+}
+
+#maintext {
+  position: absolute;
+  font-size: 4.9em;
+  padding: 20px;
+  top: 0%;
+  height: 40%;
+  margin: auto;
+}
+
+#choose {
+  position: absolute;
+  width: 100%;
+  height: 1.3em;
+  top: 21%;
+  text-align: center;
+  font-size: 2.3em;
+  background-color: #FFFF65;
+}
+
+#resources {
+  position: absolute;
+  padding: 10px;
+  width: 100%;
+  margin: auto;
+  max-height: 64%;
+  top: 30%;
+  font-size: 100%;
+  overflow-y: scroll;
+}
+
+#resource {
+  background-color: #E9F8FF;
+  width:93%;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  font-size: 2em;
+}
+
+#resource_title {
+  width:93%;
+  margin: 1%;
+  padding: 1%;
+  text-align: left;
+  font-size: 2em;
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  #page {
+    width: 80%;
+    left: 0%;
+  }
+  #maintext {
+    font-size: 3.6em;
+  }
+  #choose {
+    top: 17%;
+  }
+  #resource {
+    padding: 0%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #maintext {
+    font-size: 3em;
+  }
+  #page {
+    width: 100%;
+    left: 0%;
+    height: 100%;
+    top: 50%;
+    overflow: hidden;
+  }
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+
+<div id="page">
+    <div id="maintext"><b><i>Berkeley </i> <a style="font-size: .4em;" href="/">&larr;</a> </b></div>
+    <div id="choose"><b>Resources: </b></div>
+    <div id="resources">
+
+      <div id="resource_title"><b>What is Gentrification?</b></div>
+      <a href="http://www.governing.com/topics/urban/gov-gentrification-series.html"><div id="resource">Governing Mag Piece</div></a>
+      <a href="https://books.google.com/books?hl=en&lr=&id=cQqOAQAAQBAJ&oi=fnd&pg=PP1&ots=NqfOXRblMk&sig=j9zxSIVVCAWFK1hkBx8Q2_6Z6IE"><div id="resource">Gentrification Textbook</div></a>
+      <a href="http://mic.com/articles/102004/these-7-cities-expose-exactly-what-gentrification-is-doing-to-america#.QXzBpbW0a"><div id="resource">Mic Article</div></a>
+
+      <div id="resource_title"><b>Rent stabilization</b></div>
+      <a href="http://www.ci.berkeley.ca.us/Rent_Stabilization_Board/Home/Guide_to_Rent_Control.aspx"><div id="resource">Guide to Rent Control</div></a>
+      <a href="https://www.tobenerlaw.com/berkeley-rent-control-faq/"><div id="resource">Independent FAQ</div></a>
+      <a href="http://www.ci.berkeley.ca.us/RentBoardUnitSearch.aspx"><div id="resource">Rent Ceiling Search</div></a>
+
+      <div id="resource_title"><b>Affordable Housing</b></div>
+      <a href="http://www.ci.berkeley.ca.us/BHA/Home/Affordable_Housing.aspx"><div id="resource">Berkeley Housing Authority</div></a>
+      <a href="http://www.lowincomehousing.us/CA/berkeley.html"><div id="resource">Low Income Housing</div></a>
+      <a href="http://www.berkeleyside.com/tag/berkeley-affordable-housing/"><div id="resource">News on Affordable Housing</div></a>
+
+      <div id="resource_title"><b>Moving Resources</b></div>
+      <a href="http://www.ci.berkeley.ca.us/Rent_Stabilization_Board/Home/Moving_In/Moving_Out_Guide.aspx"><div id="resource">Move in/out 101</div></a>
+
+      <div id="resource_title"><b>Tenant protection</b></div>
+      <a href="http://www.ci.berkeley.ca.us/ContentDisplay.aspx?id=9270"><div id="resource">Tenant's Rights</div></a>
+
+      <div id="resource_title"><b>Legal Assistance</b></div>
+      <a href="http://ebclc.org"><div id="resource">EBCLC Pro Bono</div></a>
+      <a href="https://www.ocf.berkeley.edu/~asucrla/"><div id="resource">For Students</div></a>
+
+      <div id="resource_title"><b>Renter's Unions</b></div>
+      <a href="http://berkeleytenants.org/"><div id="resource">Berkeley Tenants Union</div></a>
+    </div>
+</div>
+
+</body>
+</html>
